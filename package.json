@@ -1,0 +1,28 @@
+{
+  "name": "Axioma",
+  "version": "1.0.0",
+  "description": "OknoERP - kompleksowe rozwiązanie dla producentów stolarki okiennej ",
+  "author": "Layerdrops",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
+    "node-sass": "^6.0.1",
+    "nuxt": "^2.0.0",
+    "sass": "^1.43.5",
+    "sass-loader": "^10",
+    "swiper": "^5.3.7",
+    "vue-awesome-swiper": "^4.1.0",
+    "vue-count-to": "^1.0.13",
+    "vue-gallery-slideshow": "^1.5.2",
+    "vue-observe-visibility": "^0.4.6"
+  },
+  "devDependencies": {
+    "vue-skill-bar": "^1.0.1"
+  }
+}

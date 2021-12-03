@@ -1,0 +1,97 @@
+
+$light: #fff;
+$dark: #000;
+$dark-2: #14163e;
+$dark-3: #2d2d3e;
+$dark-4: #383848;
+$themeColor: #ff7e00;
+$themeColor-2: #ffb970;
+$primary: #222232;
+$lightGray: #7c7c82;
+$lightGray-2: #616d74;
+$lightGray-3: #505452;
+$lightGray-4: #ccccd1;
+$lightGray-5: #f5f5f5;
+$lightGray-6: #ebebeb;
+$lightGray-7: #4f504b;
+$lightGray-8: #ffefe0;
+$lightAccent: #b5b5c3;
+$primaryBig-2: 100px;
+$primaryBig: 90px;
+$primarySemiBold: 60px;
+$primaryRegular: 40px;
+$primaryLight: 30px;
+$primaryExtraLight: 26px;
+$primaryDispaly-2: 24px;
+$primaryDispaly-3: 20px;
+$primaryDispaly-4: 18px;
+$primaryDispaly-5: 14px;
+$primaryDispaly-6: 22px;
+$primaryDispaly-7: 50px;
+$primaryDispaly-8: 23px;
+$primaryDispaly-9: 70px;
+$primaryDispaly-10: 38px;
+$primaryDispaly-11: 36px;
+$primaryDispaly-12: 45px;
+$primaryDispaly-13: 53px;
+$primaryDispaly-14: 62px;
+$primaryDispaly-15: 28px;
+$primaryDispaly-16: 42px;
+$textFont: 16px;
+$textFont-2: 15px;
+$textFont-3: 12px;
+$themeFont: "Montserrat", sans-serif;
+$themeFont-2: "CoveredByYourGrace", sans-serif;
+$widthThin: 100;
+$widthExtra: 200;
+$widthLight: 300;
+$widthRegular: 400;
+$widthMedium: 500;
+$semiBold: 600;
+$bold: 700;
+$ExtraBold: 800;
+$black: 900;
+
+$pt-10: 10px;
+$pt-15: 15px;
+$pt-20: 20px;
+$pt-25: 25px;
+$pt-30: 30px;
+$pt-35: 35px;
+$pt-38: 38px;
+$pt-40: 40px;
+$pt-50: 50px;
+$pt-60: 60px;
+$pt-70: 70px;
+$pt-80: 80px;
+
+$pb-10: 10px;
+$pb-15: 15px;
+$pb-20: 20px;
+$pb-30: 30px;
+$pb-35: 35px;
+$pb-38: 38px;
+$pb-40: 40px;
+$pb-50: 50px;
+$pb-60: 60px;
+$pb-70: 70px;
+$pb-80: 80px;
+
+$legendOne: #e3bf9c;
+$legendTwo: #d48d9b;
+$legendThree: #88a9b6;
+$legendFour: #95a4d6;
+$legendFive: #c6cbef;
+/*------------- menu-style --------------*/
+%button-style {
+  font-size: $textFont;
+  border: 2px solid $light;
+  display: inline-block;
+  padding: 14px 28px;
+  margin-top: 14px;
+  white-space: nowrap;
+  color: $light;
+  font-weight: $bold;
+  position: relative;
+}
+

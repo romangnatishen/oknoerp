@@ -1,0 +1,72 @@
+@mixin transition($time-set) {
+  -webkit-transition: all $time-set;
+  -moz-transition: all $time-set;
+  -ms-transition: all $time-set;
+  -o-transition: all $time-set;
+  transition: all $time-set;
+}
+@mixin transform-rotate($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin transform-scale($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin transform-skew($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin transform-skewY($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin transform-translateY($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin transform-translateX($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}
+@mixin box-shadow($property) {
+  -webkit-box-shadow: $property;
+  -moz-box-shadow: $property;
+  box-shadow: $property;
+}
+@mixin border-radius($radius-property) {
+  -webkit-border-radius: $radius-property;
+  -moz-border-radius: $radius-property;
+  border-radius: $radius-property;
+}
+@mixin perspective($property) {
+  -webkit-perspective: $property;
+  -moz-perspective: $property;
+  -ms-perspective: $property;
+  perspective: $property;
+}
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -moz-transform: $property;
+  -ms-transform: $property;
+  -o-transform: $property;
+  transform: $property;
+}

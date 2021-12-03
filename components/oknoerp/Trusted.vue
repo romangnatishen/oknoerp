@@ -1,0 +1,37 @@
+<template>
+  <section class="trusted-area area-padding parallax-area text-center">
+      <div class="trusted-fluid">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="trusted-content">
+                          <div class="trusted__title mb-60px">
+                              <h2 class="trusted__title-title pb-20px">
+                                  OknoERP jest oparty o technologję z otwartym kodem 
+                              </h2>
+                              <h2 class="trusted__title-title">
+                                  sprawdzoną również w wielu innych branżach 
+                              </h2>                            
+                          </div><!-- end trusted__title -->
+                          <div class="trusted__btn">
+                              <a href="#" class="trusted__btn-btn">
+                                  Dowiedż się więcej <span class="fontello icon-angle-double-right"></span>
+                              </a>
+                          </div><!-- end trusted__btn -->
+                      </div><!-- end trusted-content -->
+                  </div><!-- end col-md-12 -->
+              </div><!-- end row -->
+          </div><!-- container -->
+      </div><!-- end trusted-fluid -->
+  </section>
+</template>
+
+<script>
+    export default {
+        name: "Trusted"
+    }
+</script>
+
+<style scoped>
+
+</style>
