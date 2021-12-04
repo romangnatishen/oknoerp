@@ -10,7 +10,7 @@
                         </div><!-- end col-md-8 -->
                         <div class="col-md-4 text-right no-padding-lr">
                             <ul class="copy__links">
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <!-- <li><a href="#"><i class="fab fa-twitter"></i></a></li> -->
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="#"><i class="fab fa-youtube"></i></a></li>

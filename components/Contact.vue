@@ -21,7 +21,7 @@
                   <input type="text" placeholder="Nazwa firmy" />
                 </div>
                 <div class="input__box-input email-box">
-                  <input type="text" placeholder="Dane osoby" />
+                  <input type="text" placeholder="Imię i nazwisko" />
                 </div>
                 <div class="input__box-input">
                   <input type="text" placeholder="Numer telefonu" />
@@ -33,10 +33,11 @@
                   name="message"
                   placeholder="Dodatkowe informacje"
                 ></textarea>
-                <button class="submit__btn-btn">
+                <button class="submit__btn-btn mb-15px">
                   Wyślij zapytanie
                   <span class="fontello icon-angle-double-right"></span>
                 </button>
+                <MessageCheckBoxes />
               </form>
             </div>
             <!-- end comment__form -->
@@ -52,9 +53,12 @@
 </template>
 
 <script>
-export default {
-  name: "Contact"
-};
+   import MessageCheckBoxes from "./MessageCheckboxes.vue";
+
+    export default {
+        name: "Contact",
+        components: {MessageCheckBoxes}
+    }
 </script>
 
 <style scoped></style>
