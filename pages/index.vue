@@ -4,7 +4,7 @@
     <PageHeader title="ERP w pełni dostosowany do branży stolarki okiennej" />
     <OurBenefits />
     <Trusted />
-    <ClientsLogo />
+    <!-- <ClientsLogo /> -->
 
     <OurModules />
     <Skills />  
