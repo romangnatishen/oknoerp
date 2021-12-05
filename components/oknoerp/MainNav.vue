@@ -16,7 +16,6 @@
           Firma <i class="fas fa-angle-down"></i>
         </li>
         <li><a href="/contact">O nas</a></li>
-        <li><a href="/contact">Kontakt</a></li>
       </ul>
     </div>
     <section :class="`menu-area menu--area ${sticky ? 'active' : ''}`">
@@ -53,14 +52,8 @@
                         <nuxt-link to="/implementation">Wdrożenie</nuxt-link>
                       </li>
                       <li>
-                          <a href="#">Firma</a>
-                          <div class="main__dropdown-menu">
-                              <ul>
-                                <li><nuxt-link to="/contact">Więcej o nas</nuxt-link></li>
-                                <li><nuxt-link to="/contact">Kontakt</nuxt-link></li>
-                              </ul>
-                          </div><!-- end main__dropdown-menu -->
-                      </li>                      
+                        <nuxt-link to="/contact">O firmie</nuxt-link>
+                      </li>
                       <!-- <li>
                         <nuxt-link to="/contact">Kontakt</nuxt-link>
                       </li> -->

@@ -57,15 +57,6 @@
                       </li>
 
                       <!-- <li>
-                          <a href="#">Firma</a>
-                          <div class="main__dropdown-menu">
-                              <ul>
-                                <li><nuxt-link to="/contact">Więcej o nas</nuxt-link></li>
-                                <li><nuxt-link to="/contact">Kontakt</nuxt-link></li>
-                              </ul>
-                          </div><!-- end main__dropdown-menu -->
-                      </li>                       -->
-                      <!-- <li>
                         <nuxt-link to="/contact">Kontakt</nuxt-link>
                       </li> -->
                     </ul>
