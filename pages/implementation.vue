@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavBar />
-    <Slider />
+    <!-- <Slider /> -->
     <ProjectStages />
     <Footer />
 

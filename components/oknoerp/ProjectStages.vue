@@ -1,5 +1,5 @@
 <template>
-  <section class="timeline-area responsive-content area-padding theme-bg-gray">
+  <section class="timeline-area responsive-content area-padding theme-bg-gray mt-60px">
       <div class="timeline-fluid">
           <div class="container">
               <div class="row">

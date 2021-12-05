@@ -6,7 +6,7 @@
                 Kompleksowa obsługa procesu sprzedaży zaczynając od wystawienia ofert, umów, zamówień klientów. <br> 
                 W razie wykorzystania zewnętrznego konfiguratora produktów system zaczytuje wszystkie dane niezbędne do obsługi całego procesu sprzedaży, w tym danych do obsługi procesu produckcji i zamawiania materiałów do danej umowy.  
             </p>
-            <SwiperSlider />
+            <SwiperSlider :imgArray="images"/>
         </div><!-- end avivon-heading -->
 
         <div class="mb-45px"> 
@@ -134,7 +134,7 @@
 
 
     </div><!-- end single-content -->
-
+        
 </template>
 
 <script>
@@ -151,19 +151,11 @@
         data() {
             return {
                 images: [
-                'https://placekitten.com/801/800',
-                'https://placekitten.com/802/800',
-                'https://placekitten.com/803/800',
-                'https://placekitten.com/804/800',
-                'https://placekitten.com/805/800',
-                'https://placekitten.com/806/800',
-                'https://placekitten.com/807/800',
-                'https://placekitten.com/808/800',
-                'https://placekitten.com/809/800',
-                'https://placekitten.com/810/800'
-                ],
-                index: null
-        }
+                    {url:'/images/oknoerp/sales/pozycja.jpg', alt:'Kartoteka pozycji'},
+                    {url:'/images/oknoerp/sales/DocImport.jpg', alt:'Import dokumentów od odstawcy'},
+                    {url:'/images/oknoerp/sales/Charakterystyki.jpg', alt:'Dodatkowe cechy wyrobu gotowego'} 
+                ]
+            }
         }        
     }
 </script>

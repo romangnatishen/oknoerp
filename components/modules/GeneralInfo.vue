@@ -10,6 +10,7 @@
             i wskazówkami naszych dotychczasowych Klientów.
             </p>
         </div>
+
         <div class="avivon-heading">
             <ul class="post__meta mb-30px">
                 <li><b>Wraz z systemem zapełniamy gotowe mapy zbilansowanych procesów branżowych</b></li>
@@ -141,6 +142,7 @@
 </template>
 
 <script>
+
     export default {
         name: "CasesSingle"
     }

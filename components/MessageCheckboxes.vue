@@ -1,5 +1,8 @@
 <template>
   <div class="app-newsletter">
+    <p class="app-newsletter--item--text blue">
+      <b>*Aby wysłać zapytanie prosimy o zaznaczenie wszystkich zgód</b> 
+    </p>
 
     <div class="lg-12 app-newsletter--item">
         <input 
@@ -121,7 +124,7 @@ $action-color: #222232;
 $lightgray: #9c9e9f;
 $gray: #bdc1c6;
 $white: #fff;
-$green: #222232;
+$blue: #222232;
 
 * {
   box-sizing: border-box;
@@ -166,8 +169,8 @@ input[type="checkbox"] {
   }
   &:checked {
     color: $white;
-    border-color: $green;
-    background: $green;
+    border-color: $blue;
+    background: $blue;
     &::before {
       opacity: 1;
     }

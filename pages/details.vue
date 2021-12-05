@@ -1,8 +1,8 @@
 <template>
   <div>
     <NavBar />
-    <Slider />
-    <section class="single-area responsive-content area-padding">
+    <!-- <Slider /> -->
+    <section class="single-area responsive-content area-padding mt-80px">
       <div class="service-fluid">
         <div class="container">
           <div class="row">          

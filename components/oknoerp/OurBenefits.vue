@@ -18,16 +18,16 @@
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="choose-same">
               <div class="choose__icon">
-                <span class="fontello icon-chart"></span>
+                <span class="fontello icon-users-1"></span>
               </div>
               <!-- end choose__icon -->
               <div class="choose__title">
-                <h3>Jeden system dla całej firmy</h3>
+                <h3>System dla całej firmy</h3>
               </div>
               <!-- end choose__title -->
               <div class="choose__desc">
                 <p>
-                  System klasy ERP <b> w pełni dostosowany do wymagań branży </b>, łączący wszystkie działy firmy 
+                  System klasy ERP <b> w pełni dostosowany do wymagań branży </b>, łączący wszystkie działy 
                 </p>
               </div>
               <!-- end choose__desc -->
@@ -37,16 +37,16 @@
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="choose-same">
               <div class="choose__icon">
-                <span class="fontello icon-chart"></span>
+                <span class="fontello icon-sitemap"></span>
               </div>
               <!-- end choose__icon -->
               <div class="choose__title">
-                <h3>Gotowe procesy sprawdzone w tej branży</h3>
+                <h3>Gotowe procesy branżowe</h3>
               </div>
               <!-- end choose__title -->
               <div class="choose__desc">
                 <p>
-                  Oprócz narzędzia informatycznego usprawniamy również procesy w firmie
+                  Oprócz systemu usprawniamy również procesy w firmie
                 </p>
               </div>
               <!-- end choose__desc -->
@@ -58,7 +58,7 @@
           <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="choose-same">
               <div class="choose__icon">
-                <span class="fontello icon-exploration"></span>
+                <span class="fontello icon-mobile"></span>
               </div>
               <!-- end choose__icon -->
               <div class="choose__title">
@@ -80,11 +80,11 @@
           >
             <div class="choose-same rpl-content">
               <div class="choose__icon">
-                <span class="fontello  icon-options"></span>
+                <span class="fontello  icon-chrome"></span>
               </div>
               <!-- end choose__icon -->
               <div class="choose__title">
-                <h3>Portal klienta B2B</h3>
+                <h3>Portal klienta</h3>
               </div>
               <!-- end choose__title -->
               <div class="choose__desc">

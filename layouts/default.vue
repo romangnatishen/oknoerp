@@ -10,7 +10,7 @@
     },
     head(){
       return {
-        title: "Avivon - Vue Nuxt Business Consulting & Finance Template"
+        title: "Axioma | OknoERP"
       }
     },
     mounted () {

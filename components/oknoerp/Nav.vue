@@ -9,13 +9,14 @@
       <!-- end menu__close -->
       <ul class="off__menu">
         <li class="menu__title-only">OknoERP <i class="fas fa-angle-down"></i></li>
-        <li><a href="/details">O nas</a></li>
+        <li><a href="/">Start</a></li>
         <li><a href="/details">Obszary systemu</a></li>
         <li><a href="/implementation">Wdrożenie</a></li>
         <li class="menu__title-only">
-          Kontakt <i class="fas fa-angle-down"></i>
+          Firma <i class="fas fa-angle-down"></i>
         </li>
-        <li><a href="/contact">Napisz do nas</a></li>
+        <li><a href="/contact">O nas</a></li>
+        <!-- <li><a href="/contact">Kontakt</a></li> -->
       </ul>
     </div>
     <section :class="`menu-area menu--area ${sticky ? 'active' : ''}`">
@@ -43,7 +44,7 @@
                   <nav class="menu__wrapper">
                     <ul class="dropdown-main">
                       <li>
-                        <nuxt-link to="/contact">O nas</nuxt-link>
+                        <nuxt-link to="/">Start</nuxt-link>
                       </li>
                       <li>
                         <nuxt-link to="/details">Obszary OknoERP</nuxt-link>
@@ -52,8 +53,21 @@
                         <nuxt-link to="/implementation">Wdrożenie</nuxt-link>
                       </li>
                       <li>
-                        <nuxt-link to="/contact">Kontakt</nuxt-link>
+                        <nuxt-link to="/contact">O firmie</nuxt-link>
                       </li>
+
+                      <!-- <li>
+                          <a href="#">Firma</a>
+                          <div class="main__dropdown-menu">
+                              <ul>
+                                <li><nuxt-link to="/contact">Więcej o nas</nuxt-link></li>
+                                <li><nuxt-link to="/contact">Kontakt</nuxt-link></li>
+                              </ul>
+                          </div><!-- end main__dropdown-menu -->
+                      </li>                       -->
+                      <!-- <li>
+                        <nuxt-link to="/contact">Kontakt</nuxt-link>
+                      </li> -->
                     </ul>
                   </nav>
                   <!-- end menu__wrapper -->
@@ -78,21 +92,21 @@ export default {
   name: "NavTwo",
   data() {
     return {
-      sticky: false,
+      sticky: true,
       mobileToggle: false
     };
   },
   mounted() {
-    window.addEventListener("scroll", this.handleScroll);
+    // window.addEventListener("scroll", this.handleScroll);
   },
   methods: {
-    handleScroll() {
-      if (window.scrollY > 70) {
-        this.sticky = true;
-      } else if (window.scrollY < 70) {
-        this.sticky = false;
-      }
-    }
+    // handleScroll() {
+    //   if (window.scrollY > 70) {
+    //     this.sticky = true;
+    //   } else if (window.scrollY < 70) {
+    //     this.sticky = false;
+    //   }
+    // }
   }
 };
 </script>

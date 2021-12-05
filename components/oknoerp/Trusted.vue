@@ -7,14 +7,14 @@
                       <div class="trusted-content">
                           <div class="trusted__title mb-60px">
                               <h2 class="trusted__title-title pb-20px">
-                                  OknoERP jest oparty o technologję z otwartym kodem 
+                                  OknoERP ma otwarty kod 
                               </h2>
                               <h2 class="trusted__title-title">
-                                  sprawdzoną również w wielu innych branżach 
+                                  Łatwo dostosowuje się do specyficznych procesów
                               </h2>                            
                           </div><!-- end trusted__title -->
                           <div class="trusted__btn">
-                              <a href="#" class="trusted__btn-btn">
+                              <a href="/details" class="trusted__btn-btn">
                                   Dowiedż się więcej <span class="fontello icon-angle-double-right"></span>
                               </a>
                           </div><!-- end trusted__btn -->

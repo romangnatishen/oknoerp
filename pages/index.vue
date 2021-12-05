@@ -7,18 +7,21 @@
     <!-- <ClientsLogo /> -->
 
     <OurModules />
-    <Skills />  
+    <!-- <Skills />   -->
+    <!-- <ThinkArea /> -->
     <CallToAction />
     <Footer />
   </div>
 </template>
 <script>
  
- import Nav from "../components/oknoerp/Nav";
+ import Nav from "../components/oknoerp/MainNav";
   import PageHeader from "../components/oknoerp/PageHeader";
   import Footer from "../components/Footer";
   import Skills from "../components/oknoerp/Skills";
   import OurModules from "../components/oknoerp/Modules";
+
+  import ThinkArea from "../components/ThinkArea";
 
   import Steps from "../components/Steps";
   import Trusted from "../components/oknoerp/Trusted";
@@ -40,7 +43,8 @@ import OurBenefits from '../components/oknoerp/OurBenefits.vue';
       Footer,
       PageHeader,
       OurBenefits,
-      Nav
+      Nav,
+      ThinkArea
     },
     head(){
       return {
