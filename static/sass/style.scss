@@ -6546,14 +6546,23 @@ body {
         &:after {
           content: "";
           position: absolute;
-          height: 100%;
+          height: 178px;
           width: 4px;
           border: 1px solid $lightGray-4;
           right: -120px;
           top: 0;
           @include border-radius(5px);
+          @media #{$laptop_l} {
+            height: 178px;
+          }
+          @media #{$laptop_m} {
+            height: 178px;
+          }
+          @media #{$laptop_m_four} {
+            height: 210px;
+          }      
           @media #{$tab_device} {
-            display: none;
+            height: 178px;
           }
           @media #{$large_mobile} {
             display: none;
