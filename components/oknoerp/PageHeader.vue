@@ -1,5 +1,5 @@
 <template>
-  <section class="trusted-area breadcrumb-area text-center">
+  <section class="trusted-area oknoerp-trusted oknoerp-breadcrumb-area text-center">
       <div class="trusted-fluid">
           <div class="container">
               <div class="row">
@@ -29,5 +29,5 @@
 </script>
 
 <style scoped>
-
+ 
 </style>

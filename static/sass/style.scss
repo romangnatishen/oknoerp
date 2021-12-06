@@ -3167,6 +3167,11 @@ body {
 .about-trusted {
   background-image: url("../images/trusted-img4.jpg");
 }
+
+.oknoerp-trusted {
+  background-image: url("../images/breadcrumb-img.jpg");
+}
+
 /*------------------------------------
        banner--area
  -------------------------------------*/
@@ -3263,8 +3268,66 @@ body {
 }
 
 /*------------------------------------
+        OknoERP breadcrumb-area
+ -------------------------------------*/
+
+ .oknoerp-breadcrumb-area {
+  padding: 280px 0 140px 0;
+  @media #{$large_mobile} {
+    padding: 240px 0 140px 0;
+  }
+  @media #{$small_mobile} {
+    padding: 240px 0 140px 0;
+  }
+
+  .trusted-content {
+    .trusted__title {
+      .trusted__title-title {
+        font-size: $primaryDispaly-9;
+        @media #{$large_mobile} {
+          font-size: $primarySemiBold;
+        }
+        @media #{$small_mobile} {
+          font-size: $primaryDispaly-7;
+        }
+        @media #{$small_mobile_two} {
+          font-size: $primaryDispaly-16;
+        }
+      }
+      .bread__rumb-item {
+        margin-bottom: 5px;
+        li {
+          display: inline-block;
+          font-size: $textFont;
+          font-weight: $semiBold;
+          position: relative;
+          padding-right: 22px;
+          a {
+            color: $light;
+          }
+          &.active-item {
+            &:after {
+              position: absolute;
+              content: "-";
+              top: 0;
+              right: 0;
+              padding: 0 7px;
+              font-size: $textFont;
+            }
+          }
+          &:last-child {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+/*------------------------------------
         breadcrumb-area
  -------------------------------------*/
+
 .breadcrumb-area {
   padding: 280px 0 140px 0;
   background-image: url("../images/breadcrumb-img.jpg");

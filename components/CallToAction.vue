@@ -6,7 +6,7 @@
               <div class="row">
                   <div class="col-md-3">
                       <div class="avivon-heading white-heading">
-                          <h2 class="avivon__title">Masz pytania? Możesz również wysłać do nas zapytanie</h2>
+                          <h2 class="avivon__title">Masz pytania? Możesz również napisać do nas</h2>
                       </div><!-- end avivon-heading -->
                   </div><!-- end col-md-3 -->
                   <div class="col-md-9 shared-form-box">
