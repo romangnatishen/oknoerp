@@ -52,7 +52,7 @@
                         <nuxt-link to="/implementation">Wdrożenie</nuxt-link>
                       </li>
                       <li>
-                        <nuxt-link to="/contact">O firmie</nuxt-link>
+                        <nuxt-link to="/contact">O nas</nuxt-link>
                       </li>
                       <!-- <li>
                         <nuxt-link to="/contact">Kontakt</nuxt-link>
