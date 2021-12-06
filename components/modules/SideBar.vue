@@ -74,8 +74,9 @@
         methods: {
 
           setModuleNumber(currentModuleNumber) {  
-            console.log('setting module numer', currentModuleNumber);      
+            // console.log('setting module numer', currentModuleNumber);
               this.$store.dispatch('windows_production/setModuleNumber',{moduleNumber:currentModuleNumber});
+              window.scrollTo({ top: 0 });
           },
         },
 
