@@ -9,21 +9,17 @@
                               <h2 class="avivon__title theme-afr">
                                   O nas</h2>
                               <h3 class="avivon__desc mb-30px">
-                                <b>Grupa Axioma</b> specjalizuje się w systemach automatyzujących oraz wspomagających
-                                zarządzanie w przedsiębiorstwach z różnych obszarów. 
+                                Grupa  Axioma specjalizuje się w systemach automatyzujących oraz wspomagających zarządzanie w przedsiębiorstwach z różnych obszarów gospodarki.
                                 <br>
-                                Oprócz oddziału w Polsce rozwijamy również oddział na Ukrainie. W ramach grupy firm zatrudniamy ponad 100 osob.
+                                Oprócz oddziału w Polsce rozwijamy również oddział na Ukrainie. W ramach grupy firm zatrudniamy ponad 100 osób.
                                 <br>
-                                W ciągu ostatnich 20 lat zrealizowaliśmy ponad 300 projektów w takich krajach jak: Polska, Słowenia, Ukraina, Rosja
-                                i Białoruś w takich branżach jak: Inżynieria, Stolarka okienna, Przetwórstwo żywności, Logistyka, Transport, Rolnictwo.
+                                W ciągu ostatnich 20 lat zrealizowaliśmy ponad 300 projektów w  Polsce,  Słowenii, Rosji Białorusi i na  Ukrainie , w takich branżach jak: Inżynieria, Stolarka okienna, Przetwórstwo żywności, Logistyka, Transport, Rolnictwo.
                                 <br>
-                                Kluczową technologją w naszych projektach jest platforma "1C Enterprise 8" oraz systemy zbudowane na niej. 
-                                <br>                                    
-                                W 2018 roku uzyskaliśmy status «1С: Localization partner» - najwyższy poziom partnerstwa dla firm rozwijających, tworzących własne rozwiązania w oparciu o technologię 1C dla globalnego biznesu lub lokalnie w wybranych krajach.                                <br>                                    
-                                W chwili obecnej rozwijamy i wdrażamy następujące rozwiązania na terytorium
-                                Polski: 1C:ERP, 1C:Drive, OknoERP.
-                                <br>      
-                                <br>                                    
+                                Kluczową technologią w naszych projektach jest platforma "1C Enterprise 8" oraz systemy zbudowane na niej.
+                                <br>                                
+                                W 2018 roku uzyskaliśmy status «1С: Localization partner» - najwyższy poziom partnerstwa dla firm rozwijających i tworzących własne rozwiązania  w oparciu o technologię 1C dla globalnego biznesu lub lokalnie w wybranych krajach.
+                                <br>                                
+                                W chwili obecnej rozwijamy i wdrażamy następujące rozwiązania na terytorium Polski: 1C:ERP, 1C:Drive, OknoERP.                                <br>                                    
                             </h3>
                           </div><!-- end avivon-heading -->                                                    
                       </div><!-- end single-content -->
