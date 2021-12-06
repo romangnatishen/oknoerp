@@ -7,10 +7,10 @@
           <a @click="setModuleNumber(0)">Podstawowe informacje</a>
           <span class="fontello icon-angle-double-right"></span>
         </li>
-        <li>
+        <!-- <li>
           <a @click="setModuleNumber(0.5)">Integracje </a>
           <span class="fontello icon-angle-double-right"></span>
-        </li>
+        </li> -->
         <li>
           <a @click="setModuleNumber(1)">Sprzedaż </a>
           <span class="fontello icon-angle-double-right"></span>
