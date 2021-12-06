@@ -71,9 +71,8 @@
             </h2>
             <p class="avivon__desc mt-20px">
                 Kompleksowa obsługa wszystkich procesów firmy odbywa się w ramach 
-                wspólnego środowiska w trybie Online niezależnie od typu urządzenia na którym pracuje użytkownik
-                na którym pracuje użytkownik.Alternatywną możliwością wyboru jest wersja w chmurze.
-                
+                wspólnego środowiska w trybie Online niezależnie od typu urządzenia na którym pracuje użytkownik.
+                Alternatywną możliwością wyboru jest wersja w chmurze.            
             </p>
             </div>
             <!-- end avivon-heading -->
