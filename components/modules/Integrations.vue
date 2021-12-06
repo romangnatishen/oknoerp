@@ -54,38 +54,6 @@
                     </h3>
                 </div>
 
-                <h3 class="single__case-title__title">
-                    Dodatkowe funkcjonalności:
-                </h3>
-
-                <div class="mb-45px"> 
-                    <ul class="plan__list mt-45px">
-                        <li>
-                            <i class="fas fa-check-circle"></i> Planowanie wydania materiałów na produkcję    
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i> Weryfikacja dostępności materiałów potrzebnych na produkcji 
-                        </li>
-                        <i class="fas fa-check-circle"></i> Zmiany rezerwacji materiału w dowolnym momencie 
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i> Informacja o ewentualnych opóźnieniach dostawy      
-                        </li>
-                        <i class="fas fa-check-circle"></i> Wydanie materiałów zgodnie z planem produkcyjnym      
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i> Pulpit pracownika na produkcji (rejestracja czasu pracy pracownika, reklamacje produkcyjne, przestoje      
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i> Automatyczne generowanie dokumentów rozchodu materiału i przychodu wyrobu gotowego na podstawie danych z produkcji      
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i> Parametryzacja użyteczności odpadów oraz ewidencja odpadów użytecznych / nieużytecznych     
-                        </li>
-                    </ul>        
-                </div>
-
-
             </div><!-- end single__case-content -->
 
         </div><!-- end single__case -->
