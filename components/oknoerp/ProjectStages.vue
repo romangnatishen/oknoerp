@@ -8,10 +8,30 @@
                           <h2 class="avivon__title">Proces wdrożenia</h2>
                       </div><!-- end avivon-heading -->
                     <p class="avivon__desc mt-25px">
-                        Wdrożenie staramy się maksymalnie opierać o naszą technologię ....  
-                        Take podejście gwarantuje zakończenie wdrożenia sukcesem, optymalizuje czas jego wykonania, zmniejsza ilość błędów związanych z pracą programistów.     
-                    </p>
 
+                        W ciągu ostatnich lat branża stolarki okiennej zmienia się dynamicznie , szeroka gama profili, okuć, technologii nawet w mniejszych  firmach komplikuje procesy produkcyjne i organizacyjne oraz wymaga bardziej zaawansowanych rozwiązań do zarządzania.
+                        <br>
+                        Proponujemy wdrożenie gotowego oprogramowania .
+                        <br>
+                        Oprócz ogólnych efektów takich  jak  zwiększenie kontroli nad zasobami, optymizacja procesów wewnątrz firmy, kładziemy nacisk na następujące czynniki:
+                         <br>
+                                                        
+                    </p>
+                    <ul class="plan__list mt-10px">
+                        <li>
+                        <i class="fas fa-check-circle"></i> kontrola dostępnością materiału (rezerwacja pod zlecenie, kontrola terminowości dostawy, szybka reakcja na zmiany, np. zmiana rezerwacji, uszkodzony materiał, zmiana w technologii). Odpowiednie osoby w trybie online dostają powiadomienia, mogą  na bieżąco reagować na zaistniałą sytuację
+    
+                        </li>
+                        <li>
+                        <i class="fas fa-check-circle"></i> Wersja mobilna systemu - pulpit magazyniera, stanowiska produkcyjne, logistyka, montaż    
+                        </li>
+                        <li>
+                        <i class="fas fa-check-circle"></i> Portal klienta - informacja dla dealerów o bieżącym statusie zleceń, proces obsługi reklamacji    
+                        </li>
+                    </ul>                                                
+                    <h3 class="avivon__tittle mt-25px">
+                        Podstawowe etapy 
+                    </h3>
                   </div><!-- end col-md-12 -->
               </div><!-- end row -->
               <div class="row">

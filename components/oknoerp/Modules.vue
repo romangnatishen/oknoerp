@@ -80,9 +80,9 @@
                     icon:'fontello icon-truck'
                     },
                   {
-                    tittle:'Obieg dokumentów', 
+                    tittle:'Elektroniczny obieg dokumentów', 
                     url:'/details', 
-                    desc:'Reklamacje od dealeróœ, Rejestr niezgodności na wszystkich etapach produkcji, obsługa reklamacji do dostawców', 
+                    desc:'Usprawnienie procesu Oszczędność czasu Automatyzacja archiwizacji Ułatwienie pracy  Oszczędność i ograniczenie zużycia zasobów', 
                     icon:'fontello icon-newspaper'
                     },
                 {
