@@ -3,7 +3,7 @@
         <div class="avivon-heading">
             <h2 class="avivon__title">Produkcja</h2>
             <p class="avivon__desc mt-30px mb-40px">
-                Moduł produkcyjny zawiera w sobie następne podstawowe funkcjonalność        
+                Moduł produkcyjny zawiera w sobie następujące funkcjonalność        
             </p>       
             <div class="mb-45px"> 
                 <ul class="plan__list mt-45px">
@@ -14,19 +14,12 @@
                         <i class="fas fa-check-circle"></i> Moduł do planowania produkcji    
                     </li>
                     <li>
-                        <i class="fas fa-check-circle"></i> Moduł do bierzącej obsługi procesów na produkcji, w tym pulpit pracownika na produkcji, Analizy wydajności (rejestracja wykonania etapów produkcyjnych, przyjęcie wyrobów gotowych na stan, rozchów materiałów, rejestracja czasu pracy)    
+                        <i class="fas fa-check-circle"></i> Bieżąca obsługa procesów na produkcji, w tym pulpit pracownika na produkcji    
                     </li>
                 </ul>        
             </div>
 
         </div><!-- end avivon-heading -->
-
-        <div class="single__img mb-50px">
-            <img src="/images/sales/sales order.jpg" alt="Zamówienie klienta" class="img-single" @click="index = 1">
-            <client-only placeholder="Loading...">
-            <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
-            </client-only>
-        </div><!-- end single__img -->
 
         <div class="single__case">
             <div class="single__case-content singlecases__cont mb-70px">
@@ -37,10 +30,10 @@
                 <div class="mb-45px"> 
                     <ul class="plan__list mt-45px">
                         <li>
-                            <i class="fas fa-check-circle"></i> W oparciu o plan produkcyjny szybka informacja dla klienta w jakim terminie jesteśmy w stanie zrealizować zlecenie    
+                            <i class="fas fa-check-circle"></i> Szybka informacja o aktualnym stanie zlecenia na podstawie planu produkcyjnego    
                         </li>
                         <li>
-                            <i class="fas fa-check-circle"></i> Dostępność materiałów pod zlecenie (potrzeba zamówić, zarezerwowano na stanie, kontrola dostawy na konkretną datę)    
+                            <i class="fas fa-check-circle"></i> Aktualna wiedza o kompletności zamówienia i możlwiości jego wyprodukowania    
                         </li>
                         <li>
                             <i class="fas fa-check-circle"></i> Analiza dostępności maszyn produkcyjnych oraz zasobów ludzkich do wykonania zlecenia w konkretnym terminie    
@@ -70,7 +63,7 @@
                 <div class="single__case-content mb-60px theme-btb pb-50px">
                     <span class="fontello icon-human-resources case-icon"></span>
                     <h3 class="single__case-title__title mt-30px mb-30px">
-                        Analiza kosztów wytworzenia z dokładnością do "każdej śruby" w każdym zleceniu 
+                        Analiza kosztów wytworzenia z dokładnością do najmniejszej składowej w każdym zleceniu 
                     </h3>
                 </div>
 
@@ -90,13 +83,13 @@
                             <i class="fas fa-check-circle"></i> Wydanie materiałów zgodnie z planem produkcyjnym      
                         </li>
                         <li>
-                            <i class="fas fa-check-circle"></i> Pulpit pracownika na produkcji (Rejestracja czasu pracy pracownika, reklamacje produkcyjne, preztoje)      
+                            <i class="fas fa-check-circle"></i> Pulpit pracownika na produkcji (rejestracja czasu pracy pracownika, reklamacje produkcyjne, przestoje)     
                         </li>
                         <li>
-                            <i class="fas fa-check-circle"></i> Automatyczne generowanie dokumentów RW / PW na podstawie danych z produkcji      
+                            <i class="fas fa-check-circle"></i> Automatyczne generowanie dokumentów rozchodu materiału i przychodu wyrobu gotowego na podstawie danych z produkcji      
                         </li>
                         <li>
-                            <i class="fas fa-check-circle"></i> Ewidencja odpadów użytecznych / nieużytecznych      
+                            <i class="fas fa-check-circle"></i> Parametryzacja użyteczności odpadów oraz ewidencja odpadów użytecznych / nieużytecznych      
                         </li>
                     </ul>        
                 </div>

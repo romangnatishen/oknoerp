@@ -5,12 +5,6 @@
             <p class="avivon__desc mt-30px mb-40px">
                 Moduł  zawiera  następne podstawowe funkcjonalności:        
             </p>   
-            <div class="single__img mb-50px">
-                <img src="/images/sales/sales order.jpg" alt="Zamówienie klienta" class="img-single" @click="index = 1">
-                <client-only placeholder="Loading...">
-                <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
-                </client-only>
-            </div><!-- end single__img -->
             
             <div class="mb-45px"> 
                 <ul class="plan__list mt-45px">

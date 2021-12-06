@@ -7,17 +7,6 @@
             </p>        
         </div><!-- end avivon-heading -->
 
-        <div class="single__img mb-50px">
-            <img src="/images/sales/sales order.jpg" alt="Zamówienie klienta" class="img-single" @click="index = 1">
-            <div class="shared__date-item">
-                <span>Zobacz więcej >></span>
-            </div><!-- end shared__date-item -->
-
-            <client-only placeholder="Loading...">
-            <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
-            </client-only>
-        </div><!-- end single__img -->
-
         <p class="avivon__desc mt-30px mb-40px">
             Moduł zawiera następujące funkcjonalności:     
         </p>        
@@ -25,28 +14,31 @@
         <div class="mb-45px"> 
             <ul class="plan__list mt-45px">
                 <li>
-                    <i class="fas fa-check-circle"></i> Nieograniczona ilość magazynów z dowolną topologją, podział magazynu na obszary, strefy.    
+                    <i class="fas fa-check-circle"></i> Nieograniczona ilość magazynów z dowolną topologią
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Umieszczenie towarów zgodnie z ustawieniami grupy magazynowej (Szyby, Profile, Ramy, Okucia, inne)     
+                    <i class="fas fa-check-circle"></i> Podział magazynu na obszary, strefy, komórki    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Magazyn WMS, aplikacja mobilna, ewidencja materiałowa z dokładnością do komórek magazynowych      
+                    <i class="fas fa-check-circle"></i> Umieszczenie towarów zgodnie z ustawieniami grupy magazynowej     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Ustawienie optymalnej strategii rozmieszczenia pod każdą grupę magazynową      
+                    <i class="fas fa-check-circle"></i> Magazyn WMS ewidencja materiałowa z dokładnością do komórek magazynowych      
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Rezerwacja materiału pod każdy wiersz w zleceniu      
+                    <i class="fas fa-check-circle"></i> Ustawienie optymalnej strategii rozmieszczenia pod każdą grupę magazynową     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Parametryzacja etykiet pod każdą grupę mageriałową      
+                    <i class="fas fa-check-circle"></i> Parametryzacja etykiet pod każdą grupę materiałową     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Weryfikacja dostawy na urządzeniu mobilnym (wydruk etykiet, potwierdzenie ilości oraz jakości dostawy)      
+                    <i class="fas fa-check-circle"></i> Weryfikacja dostawy na urządzeniu mobilnym      
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Operacje wewnętrzne      
+                    <i class="fas fa-check-circle"></i> Możliwość parametryzacji i wydruku etykiet      
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i> Potwierdzenie ilości oraz jakości dostawy      
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i> Wydanie materiałów na produkcje zgodnie z aktualnym planem produkcyjnym      
@@ -55,10 +47,13 @@
                     <i class="fas fa-check-circle"></i> Wydanie materiałów metodą Kanban      
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Obsługa magazynu odpadów z dokładnością do każdego numeru seryjnego      
+                    <i class="fas fa-check-circle"></i> Obsługa magazynu odpadów z dokładnością do każdego numeru seryjnego     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Inwentaryzacje cykliczne, inwentaryzacje roczne w tym z poziomu urządzenia mobilnego      
+                    <i class="fas fa-check-circle"></i> Inwentaryzacje cykliczne, inwentaryzacje roczne       
+                </li>
+                <li>
+                    <i class="fas fa-check-circle"></i> Aplikacja mobilna i możliwość wykonywania koniecznych operacji magazynowych z poziomu urządzenia mobilnego       
                 </li>
 
 

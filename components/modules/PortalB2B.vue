@@ -5,18 +5,10 @@
             <p class="avivon__desc mt-30px mb-40px">
                 Moduł  zawiera  następne podstawowe funkcjonalności:        
             </p>   
-            <div class="single__img mb-50px">
-                <img src="/images/sales/sales order.jpg" alt="Zamówienie klienta" class="img-single" @click="index = 1">
-                <client-only placeholder="Loading...">
-                <VueGallerySlideshow :images="images" :index="index" @close="index = null" />
-                </client-only>
-            </div><!-- end single__img -->
             
             <div class="mb-45px"> 
                 <ul class="plan__list mt-45px">
-                    <li>
-                        <i class="fas fa-check-circle"></i> Zamówienia klientów (Wybór produktów, sprawdzenia dostępności, dodatkowe kontrole w systemie ERP, zapis do systemu ERP zamówienia, sprawdzenie jego korekty (modyfikacji wykonanej przez operatora), dodaniu kontrahenta)      
-                    </li>
+                   
                     <li>
                         <i class="fas fa-check-circle"></i> Możliwość dodawania do zamówienia pozycji dodatków     
                     </li>

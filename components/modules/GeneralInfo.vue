@@ -5,18 +5,62 @@
             <h2 class="avivon__title">Gotowe rozwiązanie</h2>
             <p class="avivon__desc audit-title mt-30px mb-40px">
             W ciągu ostatnich 5 lat opracowaliśmy program klasy ERP do
-            zarządzania firmą produkującą stolarkę otworową. W tym
-            czasie doskonaliliśmy rozwiązanie zgodnie z potrzebami rynku
-            i wskazówkami naszych dotychczasowych Klientów.
+            zarządzania firmą produkującą stolarkę otworową. 
+            Doświadczenie to pomogło w doskonaleniu gotowego rozwiązania
+            zgodnego z potrzebami rynku i wskazówkami naszych dotychczasowych 
+            Klientów. 
             </p>
         </div>
 
-        <div class="avivon-heading">
-            <ul class="post__meta mb-30px">
-                <li><b>Wraz z systemem zapełniamy gotowe mapy zbilansowanych procesów branżowych</b></li>
-                <li><b>Nie pytamy jak trzeba zrobić, raczej podpowiadamy jak należy zorganizować każdy proces w firmie</b></li>
-            </ul>
+        <div class="choose-same">
+            <div class="choose__icon mb-15px">
+            <span class="fontello icon-sitemap"></span>
+            </div>
+            <!-- end choose__icon -->
+            <div class="choose__title">
+            </div>
+            <!-- end choose__title -->
+            <div class="choose__desc">
+            <p>
+                Wraz z systemem zapełniamy gotowe mapy zbilansowanych procesów branżowych
+            </p>
+            </div>
+            <!-- end choose__desc -->
         </div>
+
+        <div class="choose-same mt-40px">
+            <div class="choose__icon mb-15px">
+            <span class="fontello icon-users-1"></span>
+            </div>
+            <!-- end choose__icon -->
+            <div class="choose__title">
+            </div>
+            <!-- end choose__title -->
+            <div class="choose__desc">
+            <p>
+                Każdy z modułów ma za zadanie eliminowanie czynników hamujących zastój w pracy przedsiębiorstwa 
+                i usystematyzowaniu wiedzy oraz przepływu informacji dotyczącej zaawansowania prac w obrębie zamówienia
+            </p>
+            </div>
+            <!-- end choose__desc -->
+        </div>
+
+        <div class="choose-same mt-40px">
+            <div class="choose__icon mb-15px">
+            <span class="fontello icon-chart-bar"></span>
+            </div>
+            <!-- end choose__icon -->
+            <div class="choose__title">
+            </div>
+            <!-- end choose__title -->
+            <div class="choose__desc">
+            <p>
+                Dzięki zdobytemu doświadczeniu pomagamy zorganizować odpowiedni proces w firmie
+            </p>
+            </div>
+            <!-- end choose__desc -->
+        </div>
+
         <!-- end avivon-heading -->
         <div class="single__img clearfix avivon-single avivon--single">
             <div class="single__img-img"></div>
@@ -26,10 +70,10 @@
                 Wspólne środowisko dla całej firmy
             </h2>
             <p class="avivon__desc mt-20px">
-                Obsługa wszystkich procesów firmy odbywa się w ramach
-                wspólnego środowiska w trybie Online niezależnie od typu
-                urządzenia na którym pracuje użytkownik. Rownież
-                proponujemy wersję chmurową.
+                Kompleksowa obsługa wszystkich procesów firmy odbywa się w ramach 
+                wspólnego środowiska w trybie Online niezależnie od typu urządzenia na którym pracuje użytkownik
+                na którym pracuje użytkownik.Alternatywną możliwością wyboru jest wersja w chmurze.
+                
             </p>
             </div>
             <!-- end avivon-heading -->
@@ -44,33 +88,29 @@
                 </h2>
                 <div class="ac-a">
                 <p class="accordion__content-desc">
-                    Pozwala skutecznie zarządzać towarami i procesami na
-                    magazynach. Dzięki rezerwacji materiałów pod konkretne
-                    zlecenia, w tym rezerwację materiałów „w drodze”,
-                    prowadzenie magazynu odpadów użytecznych,
-                    optymalizację cięcia i aproksymacji pozwala na
-                    obniżenie utrzymywanych stanów magazynowych o co
-                    najmniej 50%
+                    Rezerwacja materiałów pod konkretne zlecenie, w tym rezerwacja materiałów, 
+                    które zostały już zamówione, ale jeszcze nie zostały przyjęte na magazyn,
+                    prowadzenie magazynu odpadów użytecznych, optymalizację cięcia i aproksymacji
+                    pozwala na obniżenie utrzymywanych stanów magazynowych o co najmniej 50%.
+                                 
+                    
                 </p>
                 </div>
             </div>
 
             <div class="ac">
                 <h2 class="ac-q accordion__title-text" tabIndex="0">
-                Płynny nadzór nad wykonaniem zamówień klientów
+                Pełny nadzór nad wykonaniem zamówień klientów
                 </h2>
                 <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">
-                    W pełni obsługujemy proces realizacji zamówienia
-                    klienta, zaczynając od procesu jego rejestracji w
-                    systemie, działu zaopatrzenia, magazynu (w tym WMS),
-                    produkcji, magazynu wyrobów gotowych, wysyłki wyrobów
-                    do klienta. <br />
-                    <br />
-                    Umożliwia sprawdzenie na jakim etapie wykonania jest
-                    zlecenie, przeanalizować koszty produkcyjne (do każdej
-                    śruby, na każdej pozycji w zamówieniu klienta), koszty
-                    montażu i ewentualnych reklamacji
+                    Kompleksowa obsługa procesu realizacji zamówienia klienta, 
+                    od momentu rejestracji zamówienia w systemie,
+                    zapotrzebowania materiału po wytworzenie i jego wysyłkę.
+                                                 
+                     Możliwość sprawdzenia etapu wykonania zlecenie, analizy kosztów
+                    produkcyjnych z dokładnością do każdej najmniejszej składowej zlecenia oraz 
+                    kosztu montażu i ewentualnych reklamacji.
                 </p>
                 </div>
             </div>
@@ -81,10 +121,10 @@
                 </h2>
                 <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">
-                    Pozwala na wymianę informacjami w formacie
-                    elektronicznym z ponad 20 dostawcami z branży (wysyłka
-                    zamówień do dostawców, potwierdzenie dostawy,
-                    przyjęcie zewnętrzne, faktura zakupu)
+                    Wymianę informacjami w formacie elektronicznym
+                    z ponad 20 dostawcami z branży takich jak: 
+                    zamówienie do dostawców, potwierdzenie dostawy,
+                    przyjęcie zewnętrzne materiału i faktura zakupu.
                 </p>
                 </div>
             </div>
@@ -95,11 +135,13 @@
                 </h2>
                 <div class="ac-a accordion__content">
                 <p class="accordion__content-desc">
+                    Obsługa reklamacji klientów przez portal internetowy.
                     Branżowy konfigurator produktu w wersji webowej <br />
-                    Zamówienia wprowadzone przez Portal od razu pojawiają
-                    się w ERP, są procesowane na bierząco.
+                    Zamówienia wprowadzone za pośrednictwem Portalu od razu pojawiają się 
+                    w systemie operacyjnym. Umożliwia to procesowane zamówień na bieżąco.
+                    Szeroka możliwość raportowania i konfigurowania według potrzeb Klienta.
                     <br />
-                    Obsługa reklamacij klientów przez portal internetowy
+                    
                 </p>
                 </div>
             </div>
@@ -112,7 +154,7 @@
             <h2 class="avivon__title">Integracje z innymi systemami</h2>
             <p class="avivon__desc mt-20px">
                 Otwarty kod naszego systemu zapełnia możliwości integracji
-                z innymi systemami w razie takiej potrzeby nawet we
+                z innymi systemami zewnętrznymi, zgodne z potrzebami klienta.
                 własnym zakresie. <br />
                 Zapewniamy również gotowe integracje:
             </p>
@@ -123,7 +165,7 @@
                 </li>
                 <li>
                 <i class="fas fa-check-circle"></i> Systemy aluminiowe
-                (Alicad)
+                (Alicad,Aluprof)
                 </li>
                 <li>
                 <i class="fas fa-check-circle"></i> Systemu
@@ -142,7 +184,6 @@
 </template>
 
 <script>
-
     export default {
         name: "CasesSingle"
     }

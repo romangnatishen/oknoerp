@@ -3,34 +3,32 @@
         <div class="avivon-heading">
             <h2 class="avivon__title">Sprzedaż</h2>            
             <p class="avivon__desc mt-30px mb-40px">
-                Kompleksowa obsługa procesu sprzedaży zaczynając od wystawienia ofert, umów, zamówień klientów. <br> 
-                W razie wykorzystania zewnętrznego konfiguratora produktów system zaczytuje wszystkie dane niezbędne do obsługi całego procesu sprzedaży, w tym danych do obsługi procesu produckcji i zamawiania materiałów do danej umowy.  
+                Kompleksowa obsługa procesu sprzedaży zaczynając od wystawienia ofert, umów oraz zamówień klientów. <br> 
+                W przypadku pracy w zewnętrznym konfiguratorze produktów system zaczytuje wszystkie dane niezbędne do obsługi całego procesu sprzedaży, w tym danych do obsługi procesu produkcji i zamawiania materiałów do danej umowy  
             </p>
-            <SwiperSlider :imgArray="images"/>
+          <SwiperSlider :imgArray="images"/>
         </div><!-- end avivon-heading -->
 
         <div class="mb-45px"> 
             <ul class="plan__list mt-45px">
                 <li>
-                <i class="fas fa-check-circle"></i> Proces uzgodnienia zlecenia wewnątrz firmy: statusy, poziomy dostępu, warunki akceptacji (weryfikacja działu technicznego, % wpłaconej zaliczki, zaległość za poprzednie zlecenia, ...)    
+                <i class="fas fa-check-circle"></i> Proces uzgodnienia i decyzyjności w sprawie zlecenia ustalone wewnątrz firmy na podstawie: statusów, poziomów dostępu, warunków akceptacji np. weryfikacja działu technicznego, procent wpłaconej zaliczki, zaległości w płatnościach    
                 </li>
                 <li>
-                <i class="fas fa-check-circle"></i> Pozycje zlecenia, ilość, wartość, dodatkowe parametry handlowe / technologiczne 
+                <i class="fas fa-check-circle"></i> Parametryzacji zlecenia według potrzeb: dodatkowe parametry handlowe oraz technologiczne technologiczne 
                 </li>
                 <li>
                 <i class="fas fa-check-circle"></i> Możliwość dodania do zlecenia dodatkowych pozycji handlowych 
                 </li>
                 <li>
-                <i class="fas fa-check-circle"></i> Rozbudowany mechanizm do parametryzacji rabatów, dopłat, skonta, prowizji dla dealerów  
+                <i class="fas fa-check-circle"></i> Rozbudowany mechanizm do konfiguracji rabatów, dopłat, skonta, prowizji dla dealerów, rabatów dodatkowych  
                 </li>
                 <li>
-                <i class="fas fa-check-circle"></i> Parametryzacja poziomów dostępu dla użytkowników na poszczególne typy rabatów w systemie, organiczenie wysokości udzielanych rabatów  
+                <i class="fas fa-check-circle"></i> Parametryzacja poziomów dostępu dla użytkowników na poszczególne typy rabatów w systemie, ograniczenie wysokości udzielanych rabatów  
                 </li>
                 <li>
-                <i class="fas fa-check-circle"></i> Moduł do parametryzacji rabatów, dopłat, prowizji dla dealera  
-                </li>
                 <li>
-                <i class="fas fa-check-circle"></i> Obliczenie daty realizacji, daty odbioru zlecenia  
+                <i class="fas fa-check-circle"></i> Automatyczne obliczenie daty realizacji oraz daty odbioru zlecenia  
                 </li>
                 <li>
                 <i class="fas fa-check-circle"></i> Automatyzacja procesu sprzedaży w spółkach powiązanych   
@@ -49,7 +47,7 @@
             <h2 class="avivon__title">Dokumenty handlowe</h2>
             <ul class="plan__list mt-45px">
                 <li>
-                    <i class="fas fa-check-circle"></i> Automatyczne wystawianie wszystkich niezbędnych dokumentów w ramach systemu: faktura, faktura zaliczkowa, protokół odbioru, protokół wydania, WZ, CMR, inne.    
+                    <i class="fas fa-check-circle"></i> Automatyczne wystawianie wszystkich niezbędnych dokumentów w ramach jednego systemu: faktura zaliczkowa, faktura sprzedażowa, protokół odbioru, protokół wydania, WZ, CMR, inne    
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i> Generator faktur zaliczkowych    
@@ -58,7 +56,7 @@
                     <i class="fas fa-check-circle"></i> Odbiory częściowe umów poprzez wybranie kilku pozycji zlecenia    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Wbudowany klient pocztowy, możliwość wysyłki dokumentów handlowych bezpośrednio z systemu    
+                    <i class="fas fa-check-circle"></i> Wbudowany klient pocztowy: możliwość wysyłki dokumentów handlowych bezpośrednio z systemu    
                 </li>
             </ul>        
 
@@ -71,13 +69,13 @@
                     <i class="fas fa-check-circle"></i> Wydanie zleceń na podstawie informacji o zakończeniu produkcji     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Kontrola wykonania opłaty za zlecenie, w przypadku braku wpłaty możliwość odblokowania wysyłki dla użytkowników z odpowiednim poziomem uprawnień     
+                    <i class="fas fa-check-circle"></i> Weryfikacja płatności, elastyczność w podejmowaniu decyzji  np. w przypadku braku wpłaty możliwość odblokowania wysyłki dla użytkowników z odpowiednim poziomem uprawnień     
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i> Parametryzacja dodatkowych warunków blokady wydania umów z poziomu użytkownika     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Wysyłka upomnień o braku wpłaty drogą mailową lub SMSem      
+                    <i class="fas fa-check-circle"></i> Wysyłka powiadomień o konieczności uregulowania płatności drogą e-mailową lub za pośrednictwem SMS     
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i> Analiza wysokości kredytu kupieckiego na etapie wydawania umów dla wybranych kontrahentów     
@@ -90,22 +88,22 @@
             <h2 class="avivon__title">Umowy montażowe</h2>
             <ul class="plan__list mt-45px">
                 <li>
-                    <i class="fas fa-check-circle"></i> Formularz montażu w oparciu o załozone ceny jednostkowe i pracochłonności okreslonych czynności, dobór materiaów montazowych, pracowników    
+                    <i class="fas fa-check-circle"></i> Formularz montażu zgodny ze specyfikacją w oparciu o normy zakładowe    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Stawki VAT w zleceniu zgodnie z wymaganiami    
+                    <i class="fas fa-check-circle"></i> Różne stawki VAT w zleceniu zgodne z obowiązującymi przepisami     
                 </li>
                 <li>
                     <i class="fas fa-check-circle"></i> Prowadzenie kalendarza ekip montażowych z dokładnością do biura handlowego, poszczególnej ekipy, poszukiwanie możliwości wykonania prac interwencyjnych    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Prowadzenie magazynu na placu "budowy"    
+                    <i class="fas fa-check-circle"></i> Inwestycje; możliwość prowadzenia stanu magazynowego podczas trwania projektu inwestycyjnego    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Raporty dzienne ekip montażowych za pomocą urządzenia mobilnego    
+                    <i class="fas fa-check-circle"></i> Raporty dzienne ekip montażowych za pośrednictwem urządzenia mobilnego    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Rozlicenie wyjazdu montażowego    
+                    <i class="fas fa-check-circle"></i> Rozliczenie wyjazdu montażowego    
                 </li>                
             </ul>        
 
@@ -118,24 +116,25 @@
                     <i class="fas fa-check-circle"></i> Analiza płatności Kontarhenta w wybranym czasookresie     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Zbiorcze podsumowanie ilości i wartości zleceń przychodzących w danym okresie z podziałem na Kontrahenta i poszczególne kanały dystrybucji    
+                    <i class="fas fa-check-circle"></i> Zbiorcze podsumowanie ilości i wartości zleceń przychodzących z podziałem na Kontrahenta i poszczególne kanały dystrybucji w danym okresie    
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Analiza Kontrahenta pod kątem ilości umów do złożonych ilości reklamacji i przedmiotu reklamacji za okres     
+                    <i class="fas fa-check-circle"></i> Analiza Kontrahenta pod kątem ilości umów do złożonych ilości reklamacji i przedmiotu reklamacji w czasookresie     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Analiza kosztów transportu z pdoziałem na Kontrahenta     
+                    <i class="fas fa-check-circle"></i> Analiza kosztów transportu z podziałem na Kontrahenta     
                 </li>
                 <li>
-                    <i class="fas fa-check-circle"></i> Zestawienia porówanawcze dla lat/miesięcy/kwartałów     
+                    <i class="fas fa-check-circle"></i> Zestawienia porównawcze w różnym okresie z podziałem: lat/miesięcy/kwartałów     
                 </li>
             </ul>        
         </div><!-- end avivon-heading -->
 
 
     </div><!-- end single-content -->
-        
+
 </template>
+
 
 <script>
 
@@ -159,3 +158,4 @@
         }        
     }
 </script>
+
