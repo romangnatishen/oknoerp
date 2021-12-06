@@ -44,8 +44,8 @@
                               <div class="happening__desc col-md-8 col-sm-6 col-sm-offset-0 col-xs-offset-0 col-md-offset-1">
                                   <h3 class="time__item-title">Naszę doświatczenie w przełożeniu na procesy klienta</h3>
                                   <p class="time__item-desc">
-                                      Dobrze wiemy procesy w tej branży, podczas analizy nie pytamy jak Państwo chcecie zorganizować proces. 
-                                      Podpowiadamy jak proces powinien być zorganizowany zgodnie z naszą technologją.
+                                      Dobrze znamy procesy w tej branży, podczas analizy nie pytamy jak Państwo chcecie to zrobić. 
+                                      Podpowiadamy jak proces powinien być zorganizowany zgodnie z naszym doświatczeniem.
                                   </p>
                               </div><!-- end happening__desc -->
                           </div><!-- end row -->
@@ -67,10 +67,10 @@
                               <div class="happening__desc col-md-8 col-sm-6 col-sm-offset-0 col-xs-offset-0 col-md-offset-1">
                                   <h3 class="time__item-title">Import kartotek, bilansu otwarcia, parametryzacja systemu </h3>
                                   <p class="time__item-desc">
-                                      there are many variations of passages of lorem Ipsum available
-                                      but the majority have suffered alteration in some form
-                                      injected which don't look of available but the
-                                      majority have suffered even slightly believable.</p>
+                                      
+                                    Kluczowym elementem wdrożenia jest przygotowanie systemu. Ten proces zawiera w sobie ustawienie systemu zgodne z polityką firmy, import lub tworzenie podstawowych kartotek takich jak, baza towarów, dostawców, klientów. Parametryzacja produktów pod względem niezbędnych, wymaganych do zamówienia informacji. Po stronie klienta ważna jest również kwestia inwentaryzacji i przygotowania stanów magazynowych w celu wprowadzenia poprawnych danych do programu.                                      
+                                      
+                                      </p>
                               </div><!-- end happening__desc -->
                           </div><!-- end row -->
                           <div class="happening row mb-20px">
@@ -78,12 +78,11 @@
                                   <h4 class="year__item-title">Uruchomienie</h4>
                               </div><!-- end happening__period -->
                               <div class="happening__desc happening__desc2 col-md-8 col-md-offset-1 col-sm-6 col-xs-12 col-sm-offset-0 col-xs-offset-0">
-                                  <h3 class="time__item-title">Nadzór za pracą urzytkowników w nowym systemie</h3>
+                                  <h3 class="time__item-title">Nadzór nad działaniem nowego systemu</h3>
+                                        Kontrola prawidłowości konfiguracji systemu, wsparcie użytkowników w trybie online                                  
                                   <p class="time__item-desc">
-                                      there are many variations of passages of lorem Ipsum available
-                                      but the majority have suffered alteration in some form
-                                      injected which don't look of available but the
-                                      majority have suffered even slightly believable.</p>
+                                    
+                                </p>
                               </div><!-- end happening__desc -->
                           </div><!-- end row -->
                       </div><!-- end timeline-list -->
