@@ -42,7 +42,7 @@
                                   <h4 class="year__item-title">Analiza przedwdrożeniowa</h4>
                               </div><!-- end happening__period -->
                               <div class="happening__desc col-md-8 col-sm-6 col-sm-offset-0 col-xs-offset-0 col-md-offset-1">
-                                  <h3 class="time__item-title">Naszę doświatczenie w przełożeniu na procesy klienta</h3>
+                                  <h3 class="time__item-title">Nasze doświatczenie w przełożeniu na procesy klienta</h3>
                                   <p class="time__item-desc">
                                       Dobrze znamy procesy w tej branży, podczas analizy nie pytamy jak Państwo chcecie to zrobić. 
                                       Podpowiadamy jak proces powinien być zorganizowany zgodnie z naszym doświatczeniem.
