@@ -56,7 +56,7 @@
                               <div class="happening__desc col-md-8 col-sm-6 col-sm-offset-0 col-xs-offset-0 col-md-offset-1">
                                   <h3 class="time__item-title">Przenosimy ustalenia do systemu</h3>
                                   <p class="time__item-desc">
-                                      Każdy proces, uzgodniony podczas analizy poddaje się weryfikacji na danych testowych. Podczas tego etapu również są możliwe doopracowania systemu pod potrzeby konkretnego klienta.
+                                      Każdy proces, uzgodniony podczas analizy poddaje się weryfikacji na danych testowych. Podczas tego etapu możliwe są również dopracowania systemu pod potrzeby konkretnego klienta.
                                   </p>
                               </div><!-- end happening__desc -->
                           </div><!-- end row -->
@@ -68,7 +68,7 @@
                                   <h3 class="time__item-title">Import kartotek, bilansu otwarcia, parametryzacja systemu </h3>
                                   <p class="time__item-desc">
                                       
-                                    Kluczowym elementem wdrożenia jest przygotowanie systemu. Ten proces zawiera w sobie ustawienie systemu zgodne z polityką firmy, import lub tworzenie podstawowych kartotek takich jak, baza towarów, dostawców, klientów. Parametryzacja produktów pod względem niezbędnych, wymaganych do zamówienia informacji. Po stronie klienta ważna jest również kwestia inwentaryzacji i przygotowania stanów magazynowych w celu wprowadzenia poprawnych danych do programu.                                      
+                                    Kluczowym elementem wdrożenia jest przygotowanie systemu. Ten proces zawiera w sobie ustawienie systemu zgodne z polityką firmy, import lub tworzenie podstawowych kartotek takich jak baza towarów, dostawców, klientów. Parametryzacja produktów pod względem niezbędnych, wymaganych do zamówienia informacji. Po stronie klienta ważna jest również kwestia inwentaryzacji i przygotowania stanów magazynowych w celu wprowadzenia poprawnych danych do programu.                                      
                                       
                                       </p>
                               </div><!-- end happening__desc -->
