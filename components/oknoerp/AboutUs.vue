@@ -9,8 +9,8 @@
                               <h2 class="avivon__title theme-afr">
                                   O nas</h2>
                               <h3 class="avivon__desc mb-30px">
-                                <b>Grupa firm Axioma</b> specjalizuje się w systemach automatyzujących oraz wspomagających
-                                zarządzanie w przedsiębiorstwach z różnych obszarach. 
+                                <b>Grupa Axioma</b> specjalizuje się w systemach automatyzujących oraz wspomagających
+                                zarządzanie w przedsiębiorstwach z różnych obszarów. 
                                 <br>
                                 Oprócz oddziału w Polsce rozwijamy również oddział na Ukrainie. W ramach grupy firm zatrudniamy ponad 100 osob.
                                 <br>
@@ -19,10 +19,7 @@
                                 <br>
                                 Kluczową technologją w naszych projektach jest platforma "1C Enterprise 8" oraz systemy zbudowane na niej. 
                                 <br>                                    
-                                W 2018 roku uzyskaliśmy status «1С: Localization partner» -  najwyższy poziom partnertwa dla firm rozwijających,
-                                tworzących własne rozwiązania dla globalnego biznesu lub lokalnie w wybranych
-                                krajach. 
-                                <br>                                    
+                                W 2018 roku uzyskaliśmy status «1С: Localization partner» - najwyższy poziom partnerstwa dla firm rozwijających, tworzących własne rozwiązania w oparciu o technologię 1C dla globalnego biznesu lub lokalnie w wybranych krajach.                                <br>                                    
                                 W chwili obecnej rozwijamy i wdrażamy następujące rozwiązania na terytorium
                                 Polski: 1C:ERP, 1C:Drive, OknoERP.
                                 <br>      
