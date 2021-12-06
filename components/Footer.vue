@@ -34,7 +34,7 @@
                               <div class="ftp__links menu__links clearfix">
                                   <ul class="ftp__menu-links pull-left">
                                       <li><a href="/contact">O nas</a></li>
-                                      <li><a href="#">Refulamin</a></li>
+                                      <li><a href="#">Regulamin</a></li>
                                       <li><a href="#">Polityka prywatności</a></li>
                                       <li><a href="#">Polityka cookies</a></li>
                                   </ul>
