@@ -98,8 +98,7 @@
                   comment: this.comment
               };
               const sendRes = await this.$store.dispatch('windows_production/sendLeadInformation',newLeadInformation);
-              console.log(sendRes);
-              if (sendRes === true) {
+              if (sendRes.status === 200) {
                   this.company = "";
                   this.name = "";
                   this.telephone = "";
