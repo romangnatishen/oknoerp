@@ -3,7 +3,7 @@
     <NavBar />
     <!-- <Slider /> -->
     <AboutUs />
-    <Contact />
+    <CallToAction />
     <Footer />
   </div>
 </template>
@@ -13,8 +13,8 @@ import NavBar from "../components/oknoerp/Nav.vue";
 import AboutUs from "../components/oknoerp/AboutUs.vue";
   import Slider from "../components/modules/Slider";
   import Footer from "../components/Footer";
-  import Contact from "../components/Contact";
+  import CallToAction from "../components/CallToAction.vue";
   export default {
-    components: {Contact, Slider, Footer, NavBar, AboutUs}
+    components: {CallToAction, Slider, Footer, NavBar, AboutUs}
   }
 </script>

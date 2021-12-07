@@ -36,11 +36,14 @@
                                     Wyślij <span class="fontello icon-angle-double-right" ></span>
                                 </button>
                             </div><!-- end shared-form -->
-
                         </div><!-- end col-md-6 -->
                     </div>
                     <div class="row">
                         <div class="col-md-12">
+                            <p class="app-newsletter--item--text blue">
+                                <b v-if="errorText">{{errorText}}</b> 
+                                <b v-if="sendResText">{{sendResText}}</b> 
+                            </p>
                             <MessageCheckBoxes />
                         </div>
                     </div>
@@ -60,7 +63,9 @@
         name: "CallToAction",
         components: {MessageCheckBoxes},
       data() {
-        return {
+        return {                        
+          errorText: '', 
+          sendResText: '',
           company:"",
           name:"",
           telephone:"",
@@ -68,8 +73,23 @@
           comment:""
         }
       },
+
         methods: {
           async sendLeadInformation() {  
+            this.errorText = '';  this.sendResText = '';
+            if (!this.name||!this.email) {
+                this.errorText = 'Prosimy o uzupełnienie pól Imie i nazwisko oraz adres Email przed wysłaniem wiadomości'
+            }
+            
+            const firstAgreement = this.$store.getters['windows_production/firstAgreement'];
+
+            const secondAgreement = this.$store.getters['windows_production/secondAgreement'];
+
+            if (firstAgreement!=true||secondAgreement!=true) {
+                this.errorText = 'Prosimy o zaznaczenie wszystkich zgód przed wysłaniem wiadomości'
+            }
+
+            if (!this.errorText) {
              const newLeadInformation = {
                   company: this.company,
                   name: this.name,
@@ -78,8 +98,22 @@
                   comment: this.comment
               };
               const sendRes = await this.$store.dispatch('windows_production/sendLeadInformation',newLeadInformation);
-              console.log('send res', sendRes);
-              window.scrollTo({ top: 0 });            
+              if (sendRes === true) {
+                  this.company = "";
+                  this.name = "";
+                  this.telephone = "";
+                  this.email = "";
+                  this.comment = "";
+                  this.sendResText = "Powiadomienie zostało  pomyślnie wysłane. Skontaktujemy się z Państwem w najbliższym czasie";
+                  setTimeout(() => {
+                    window.scrollTo({ top: 0 });
+                  }, 5000);
+                              
+                } else {
+                  this.sendResText = "Bład podczas wysyłki powiadomienia!";
+              }
+            }
+
           },
         }
     }

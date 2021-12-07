@@ -1,19 +1,16 @@
 <template>
   <div class="app-newsletter">
-    <p class="app-newsletter--item--text blue">
-      <b>*Aby wysłać zapytanie prosimy o zaznaczenie wszystkich zgód</b> 
-    </p>
 
     <div class="lg-12 app-newsletter--item">
         <input 
             type="checkbox" 
             id="checkbox" 
-            v-model="rodoConfirmation"            
+            v-model="firstAgreement"            
             class="app-newsletter--item--checkbox"
             :class="{
             'app-newsletter--item--checkbox--error': is_confirmation_error,
             }"
-            @change="$emit('change-confirmation', $event.checked)"        
+            @change="setFirstAgreement()"        
             >
       <div>
         <p class="app-newsletter--item--text font-color">
@@ -75,12 +72,12 @@
         <input 
             type="checkbox" 
             id="checkbox" 
-            v-model="emailMaterialsConfirmation"            
+            v-model="secondAgreement"            
             class="app-newsletter--item--checkbox"
             :class="{
             'app-newsletter--item--checkbox--error': is_confirmation_error,
             }"
-            @change="$emit('change-confirmation', $event.checked)"        
+            @change="setSecondAgreement()"
             >
       <div>
         <p class="app-newsletter--item--text font-color">
@@ -110,8 +107,26 @@ export default {
       type: Boolean,
     },
   },
+
+   mounted() {
+
+         this.firstAgreement =  this.$store.getters['windows_production/firstAgreement'];
+         this.secondAgreement =  this.$store.getters['windows_production/secondAgreement'];
+
+   },
+
+  methods:{
+    setFirstAgreement() {
+        this.$store.dispatch('windows_production/setFirstAgreement',{firstAgreement:this.firstAgreement});
+      },
+    setSecondAgreement() {
+        this.$store.dispatch('windows_production/setSecondAgreement',{secondAgreement:this.secondAgreement});
+      },
+  },
   data: () => ({
     is_first_checkbox_text_more: false,
+    firstAgreement: false,
+    secondAgreement: false
   }),
 };
 </script>
