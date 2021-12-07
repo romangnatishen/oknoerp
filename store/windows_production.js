@@ -1,3 +1,7 @@
+import requestDataHandler from '../plugins/requestDataHandler';
+import axios from '@/plugins/axios';
+import hostSettings from '../plugins/hostSettings';
+
 export default {
     state: () => {
       return {
@@ -16,7 +20,23 @@ export default {
          if (params) {
             commit("SET_MODULE_NUMBER", params.moduleNumber);
          }
-        }
+        },
+
+        async sendLeadInformation({ commit }, payload) {
+          const data = requestDataHandler(
+            'POST',
+            `${hostSettings.DB_HOST}/crm_lead`,
+            payload
+          );
+          // console.log(`${hostSettings.DB_HOST}/auth`);
+          const resLogin = await axios(data).catch((err) => {
+            console.log(err);
+            return false;
+          });
+          return resLogin;
+        },
+    
+    
     },
   
     getters: {

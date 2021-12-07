@@ -15,7 +15,7 @@
                         <div class="col-md-12">
                             <div class="shared-form">
                                 <form action="#">
-                                    <input type="text" placeholder="Nazwa firmy">
+                                    <input type="text" v-model="company" placeholder="Nazwa firmy">
                                 </form>
                             </div><!-- end shared-form -->
                         </div><!-- end col-md-6 -->
@@ -23,17 +23,17 @@
                         <div class="col-md-6">                          
                             <div class="shared-form">
                                 <form action="#">
-                                    <input type="text" placeholder="Imię i nazwisko">
-                                    <input type="text" placeholder="Email">
-                                    <input class="input__number" type="text" placeholder="Numer telefonu">
+                                    <input type="text" v-model="name" placeholder="Imię i nazwisko">
+                                    <input type="text" v-model="email" placeholder="Email">
+                                    <input class="input__number" v-model="telephone" type="text" placeholder="Numer telefonu">
                                 </form>
                             </div><!-- end shared-form -->
                         </div><!-- end col-md-6 -->
                         <div class="col-md-6">
                             <div class="shared-form">
-                                <textarea name="message" placeholder="Dodatkowy opis"></textarea>
-                                <button class="form__btn" value="submit">
-                                    Wyślij <span class="fontello icon-angle-double-right"></span>
+                                <textarea name="message" v-model="comment" placeholder="Dodatkowy opis"></textarea>
+                                <button class="form__btn" value="submit" @click="sendLeadInformation()">
+                                    Wyślij <span class="fontello icon-angle-double-right" ></span>
                                 </button>
                             </div><!-- end shared-form -->
 
@@ -58,7 +58,30 @@
 
     export default {
         name: "CallToAction",
-        components: {MessageCheckBoxes}
+        components: {MessageCheckBoxes},
+      data() {
+        return {
+          company:"",
+          name:"",
+          telephone:"",
+          email:"",
+          comment:""
+        }
+      },
+        methods: {
+          async sendLeadInformation() {  
+             const newLeadInformation = {
+                  company: this.company,
+                  name: this.name,
+                  telephone: this.telephone,
+                  email: this.email,
+                  comment: this.comment
+              };
+              const sendRes = await this.$store.dispatch('windows_production/sendLeadInformation',newLeadInformation);
+              console.log('send res', sendRes);
+              window.scrollTo({ top: 0 });            
+          },
+        }
     }
 </script>
 
