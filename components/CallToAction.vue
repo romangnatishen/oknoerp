@@ -106,6 +106,9 @@
                   this.comment = "";
                   this.sendResText = "Powiadomienie zostało  pomyślnie wysłane. Skontaktujemy się z Państwem w najbliższym czasie";
                   setTimeout(() => {
+                    this.$store.dispatch('windows_production/setFirstAgreement',{firstAgreement:false});
+                    this.$store.dispatch('windows_production/setSecondAgreement',{secondAgreement:false});
+                    this.sendResText = "";
                     window.scrollTo({ top: 0 });
                   }, 5000);
                               
