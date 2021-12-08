@@ -8,7 +8,7 @@
 
     <OurModules />
     <!-- <Skills />   -->
-    <!-- <ThinkArea /> -->
+    <ThinkArea />
     <CallToAction />
     <Footer />
   </div>

@@ -5,6 +5,10 @@
             <p class="avivon__desc mt-30px mb-40px">
                 Moduł logistyczny zawiera  następne podstawowe funkcjonalność        
             </p>   
+            <div class="single__img mb-50px">
+                <img src="/images/oknoerp/logistic/shipment-plan.png" alt="Plan wysyłki" class="img-single">
+            </div><!-- end single__img -->
+
             <div class="mb-45px"> 
                 <ul class="plan__list mt-45px">
                     <li>

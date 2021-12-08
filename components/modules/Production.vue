@@ -5,21 +5,21 @@
             <p class="avivon__desc mt-30px mb-40px">
                 Moduł produkcyjny zawiera w sobie następujące funkcjonalność        
             </p>       
+            <SwiperSlider :imgArray="images"/>
             <div class="mb-45px"> 
-                <ul class="plan__list mt-45px">
+                <ul class="plan__list">
                     <li>
                         <i class="fas fa-check-circle"></i> Funkcjonalność działu technicznego (BOM, karta technologiczna)    
                     </li>
                     <li>
                         <i class="fas fa-check-circle"></i> Moduł do planowania produkcji    
-                    </li>
-                    <li>
+                    </li>                
                         <i class="fas fa-check-circle"></i> Bieżąca obsługa procesów na produkcji, w tym pulpit pracownika na produkcji    
                     </li>
                 </ul>        
             </div>
 
-        </div><!-- end avivon-heading -->
+        </div><!-- end avivon-heading-->
 
         <div class="single__case">
             <div class="single__case-content singlecases__cont mb-70px">
@@ -105,28 +105,24 @@
 <script>
 
     import VueGallerySlideshow from 'vue-gallery-slideshow';
+    import SwiperSlider from "../oknoerp/SwiperSlider.vue";
 
     export default {
-        name: "WindowsProduction",
+        name: "Warehouse",
         components: {
-            VueGallerySlideshow
+            VueGallerySlideshow,
+            SwiperSlider
         },
         data() {
             return {
                 images: [
-                'https://placekitten.com/801/800',
-                'https://placekitten.com/802/800',
-                'https://placekitten.com/803/800',
-                'https://placekitten.com/804/800',
-                'https://placekitten.com/805/800',
-                'https://placekitten.com/806/800',
-                'https://placekitten.com/807/800',
-                'https://placekitten.com/808/800',
-                'https://placekitten.com/809/800',
-                'https://placekitten.com/810/800'
-                ],
-                index: null
-        }
+                    {url:'/images/oknoerp/production/zdk.jpg', alt:'Zlecenie produkcyjne'},
+                    {url:'/images/oknoerp/production/orders-completion.png', alt:'Potwierdzenie kompletacji'},
+                    {url:'/images/oknoerp/production/production-desctop.png', alt:'Pulpit produkcyjny'},
+                    {url:'/images/oknoerp/production/gant.png', alt:'Diagram ganta'},
+                ]
+            }
         }        
     }
 </script>
+

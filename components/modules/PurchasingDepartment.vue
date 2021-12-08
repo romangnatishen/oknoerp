@@ -11,6 +11,7 @@
         <p class="avivon__desc mt-30px mb-40px">
             Moduł zawiera następujące funkcjonalności:     
         </p>        
+        <SwiperSlider :imgArray="images"/>
 
         <div class="mb-45px"> 
             <ul class="plan__list mt-45px">
@@ -119,28 +120,24 @@
 <script>
 
     import VueGallerySlideshow from 'vue-gallery-slideshow';
+    import SwiperSlider from "../oknoerp/SwiperSlider.vue";
 
     export default {
-        name: "WindowsProduction",
+        name: "PurchasingDepartment",
         components: {
-            VueGallerySlideshow
+            VueGallerySlideshow,
+            SwiperSlider
         },
         data() {
             return {
                 images: [
-                'https://placekitten.com/801/800',
-                'https://placekitten.com/802/800',
-                'https://placekitten.com/803/800',
-                'https://placekitten.com/804/800',
-                'https://placekitten.com/805/800',
-                'https://placekitten.com/806/800',
-                'https://placekitten.com/807/800',
-                'https://placekitten.com/808/800',
-                'https://placekitten.com/809/800',
-                'https://placekitten.com/810/800'
-                ],
-                index: null
-        }
+                    {url:'/images/oknoerp/purchases/item.png', alt:'Pozycja'},
+                    {url:'/images/oknoerp/purchases/materials-demand.png', alt:'Zapotrzebowanie na materiał'},
+                    {url:'/images/oknoerp/purchases/zamвwienie-do-dostawcy.jpg', alt:'Zamówienie do dostawcy'},
+                    {url:'/images/oknoerp/purchases/import-dokumentвw.jpg', alt:'Import dokumentóœ'},
+                ]
+            }
         }        
     }
 </script>
+

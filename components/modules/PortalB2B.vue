@@ -5,6 +5,9 @@
             <p class="avivon__desc mt-30px mb-40px">
                 Moduł  zawiera  następne podstawowe funkcjonalności:        
             </p>   
+            <div class="single__img mb-50px">
+                <img src="/images/oknoerp/portalb2b/portalb2b.png" alt="Portal B2B" class="img-single">
+            </div><!-- end single__img -->
             
             <div class="mb-45px"> 
                 <ul class="plan__list mt-45px">

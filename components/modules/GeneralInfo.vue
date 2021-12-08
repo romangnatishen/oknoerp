@@ -4,7 +4,7 @@
         <div class="avivon-heading">
             <h2 class="avivon__title">Gotowe rozwiązanie</h2>
             <p class="avivon__desc audit-title mt-30px mb-40px">
-            W ciągu ostatnich 5 lat opracowaliśmy program klasy ERP do
+            W ciągu ostatnich 3 lat opracowaliśmy program klasy ERP do
             zarządzania firmą produkującą stolarkę otworową. 
             Doświadczenie to pomogło w doskonaleniu gotowego rozwiązania
             zgodnego z potrzebami rynku i wskazówkami naszych dotychczasowych 

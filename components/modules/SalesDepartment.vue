@@ -150,9 +150,11 @@
         data() {
             return {
                 images: [
-                    {url:'/images/oknoerp/sales/pozycja.jpg', alt:'Kartoteka pozycji'},
-                    {url:'/images/oknoerp/sales/DocImport.jpg', alt:'Import dokumentów od odstawcy'},
-                    {url:'/images/oknoerp/sales/Charakterystyki.jpg', alt:'Dodatkowe cechy wyrobu gotowego'} 
+                    {url:'/images/oknoerp/sales/main-interface.png', alt:'Pulpit główny'},
+                    {url:'/images/oknoerp/sales/sales-order.png', alt:'Zamówienie klienta'},
+                    {url:'/images/oknoerp/sales/zdk.png', alt:'Zlecenie produkcyjne'},
+                    {url:'/images/oknoerp/sales/characteristics.jpg', alt:'Cechy wyrobu gotowego'},
+                    {url:'/images/oknoerp/sales/margin-analize.png', alt:'Analiza marży'}                     
                 ]
             }
         }        

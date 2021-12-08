@@ -6,34 +6,32 @@
                   <div class="col-md-6">
                       <div class="avivon-heading">
                           <h2 class="avivon__title">
-                              think ahead and boost your
-                              business growth</h2>
+                              Jesteśmy dumni z tej współpracy!</h2>
                           <p class="avivon__desc mt-35px inspire-desc mb-30px">
-                              there are many variations of passages of Lorem Ipsum available,
-                               but the majority have suffered alteration in some form,
-                               by injected humour, or randomised words which don't look
-                              even slightly believable.
-                              If you are going to use a passage of lorem Ipsum.</p>
+                            We ścisłej współpracy z firmą Winkhaus producentem systemu WH Okna wykonaliśmy wdrożęnie systemu OknoERP w firmie OknoPlus, znanego producenta stolarki budowlanej.
+                        </p>
                       </div><!-- end avivon-heading -->
+
                       <div class="think-img">
                           <div class="think__bg"></div>
                       </div><!-- end think-img -->
                   </div><!-- end col-md-6 -->
+
                   <div class="col-md-6">
                       <div class="think-column-box">
-                          <div class="think-boxed rpl-content">
+                          <div class="think-boxed rpl-content custom_think-boxed">
                               <h3 class="boxed__title">
-                                  explore consultancy services</h3>
-                              <a href="/single-service" class="boxed__btn">read more
+                                  Kompleksowy system branżowy</h3>
+                              <a href="/details" class="boxed__btn">Więcej
                                   <span class="fontello icon-angle-double-right"></span>
                               </a>
                           </div><!-- end think-boxed -->
-                          <div class="think-boxed boxed-bg rpl-content-2"></div><!-- end think-boxed -->
-                          <div class="think-boxed rpl-content boxed-bg-2"></div><!-- end think-boxed -->
-                          <div class="think-boxed rpl-content-2">
+                          <div class="think-boxed boxed-bg rpl-content-2 "></div><!-- end think-boxed -->
+                          <div class="think-boxed rpl-content boxed-bg-2 "></div><!-- end think-boxed -->
+                          <div class="think-boxed rpl-content-2 custom_think-boxed">
                               <h3 class="boxed__title">
-                                  get a professional advice</h3>
-                              <a href="/single-service" class="boxed__btn">read more
+                                  Automatyczna integracja</h3>
+                              <a href="/details" class="boxed__btn">Więcej
                                   <span class="fontello icon-angle-double-right"></span>
                               </a>
                           </div><!-- end think-boxed -->
@@ -52,5 +50,7 @@
 </script>
 
 <style scoped>
-
+ .custom_think-boxed {
+     background-color: #ff7e00;
+    }
 </style>

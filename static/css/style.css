@@ -6250,7 +6250,7 @@ a.slider-one__text {
     width: 47%;
     height: 284px;
     float: left;
-    background-color: #ff7e00;
+    /* background-color: #ff7e00; */
     background-size: cover;
     background-position: center;
     -webkit-border-radius: 5px;
